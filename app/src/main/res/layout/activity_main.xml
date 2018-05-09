@@ -19,7 +19,10 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
         android:layout_gravity="center"
+        android:fontFamily="@font/roboto_medium"
         android:lineSpacingExtra="8sp"
         android:paddingBottom="20dp"
         android:paddingTop="20dp"
@@ -39,15 +42,16 @@
             android:layout_gravity="center"
             app:ccp_rememberLastSelection="true"
             app:ccp_defaultNameCode="ID"
-            android:layout_width="150dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
         <EditText
             android:id="@+id/phoneNumber"
-            android:layout_gravity="center"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Phone number"/>
+            android:layout_gravity="center"
+            android:hint="Phone number"
+            android:textSize="18sp" />
 
     </LinearLayout>
 
@@ -62,6 +66,7 @@
         android:layout_height="100dp"
         android:inputType="textMultiLine"
         android:gravity="top|left"
+        android:fontFamily="@font/roboto_medium"
         android:lines="6"
         android:maxLines="6"
         android:minLines="6"
@@ -74,6 +79,7 @@
         android:layout_gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_medium"
         android:text="Send"/>
 
 
